@@ -19,7 +19,7 @@ public class QuizGUI extends Application  {
     private Button myButton;
 
     private Label qns = new Label("What is name of the capital in ");
-    private Label coment = new Label("Thanks for participating your score is ");
+    private Label coment = new Label("Thank you for participating your score is ");
 
     private Label country;
 
@@ -37,12 +37,12 @@ public class QuizGUI extends Application  {
     public void start(Stage primaryStage) {
         String text = "/"+(quiz.getAll().size()+1);
         countLable = new Label(count + text);
-        country = new Label("Brasil");
+        country = new Label("Brazil");
         myButton = new Button("Answer");
         myButton.setDefaultButton(true);
 
         TextField userText = new TextField();
-        image = new Image("brasil.jpg");
+        image = new Image("brazil.jpg");
         imageView = new ImageView(image);
 
         imageView.setFitHeight(300);
@@ -95,7 +95,7 @@ public class QuizGUI extends Application  {
                 pane2.add(imageView, 0,2);
 
                 Scene scene2 = new Scene(pane2,600,500);
-                primaryStage.setTitle("Takk for deltakelsen");
+                primaryStage.setTitle("Thanks");
 
                 primaryStage.setScene(scene2);
             }

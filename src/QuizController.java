@@ -15,11 +15,11 @@ public class QuizController {
     }
 
     public void addQns() {
-        qnsList.add(new Qns("Brasil", "Brasilia", "brazil.jpg"));
+        qnsList.add(new Qns("Brazil", "Brasilia", "brazil.jpg"));
         qnsList.add(new Qns("China", "Beijing", "china.jpg"));
         qnsList.add(new Qns("Colombia", "Bogota", "colombia.jpg"));
-        qnsList.add(new Qns("Jamaika", "Kingston", "jamaika.jpg"));
-        qnsList.add(new Qns("Sverige", "Stockholm", "sverige.png"));
+        qnsList.add(new Qns("Jamaica", "Kingston", "jamaica.jpg"));
+        qnsList.add(new Qns("Sweden", "Stockholm", "sweden.png"));
         qnsList.add(new Qns("Syria", " Damaskus", "syria.jpg"));
     }
 
